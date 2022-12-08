@@ -7,7 +7,7 @@
               if ($Username  &&  $Password ){
 
                         $_SESSION['Username']=$Username;
-						$_SESSION['Password']=$Password;
+			$_SESSION['Password']=$Password;
 						
                         header("location:Login.php");
                         exit;
